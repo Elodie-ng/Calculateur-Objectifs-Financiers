@@ -23,10 +23,23 @@ Entrez votre objectif, votre épargne actuelle, la durée et le taux de rendemen
 <img width="1167" height="710" alt="Capture d’écran 2025-11-01 à 14 22 23" src="https://github.com/user-attachments/assets/62c0fbc5-3a93-4776-8789-4f922082772d" />
 
 ---
+
 ## ⚡ Utilisation
 
 1. Lancez l’application Streamlit :  
-```bash
-streamlit run app.py
+   ```bash
+   streamlit run app.py
+
+
+2. Une fois l’application ouverte dans votre navigateur, renseignez les champs suivants :  
+   - **Objectif financier total (€)** : Montant que vous souhaitez atteindre  
+   - **Épargne actuelle (€)** : Montant déjà épargné  
+   - **Durée (années)** : Nombre d’années pour atteindre l’objectif  
+   - **Taux de rendement annuel (%)** : Rendement attendu de vos investissements
+     
+3. L’application affichera automatiquement :  
+   - La **mensualité à épargner**  
+   - Un **graphique interactif** de l’épargne cumulée  
+   - Un **tableau détaillé** (optionnel, via la case à cocher)
 
 
